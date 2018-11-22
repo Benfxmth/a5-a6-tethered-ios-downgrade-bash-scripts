@@ -1,6 +1,5 @@
 # A5/A6 iOS tethered downgrade bash scripts
 
-***
 ### Disclaimer
 
 This is BETA software. This may boot loop or brick your device if you don't know what you're doing. This is a tethered up/downgrade, since there is no iBoot/bootROM exploit to boot the device after a reboot, so you'll have to restore your device to a signed iOS version.
