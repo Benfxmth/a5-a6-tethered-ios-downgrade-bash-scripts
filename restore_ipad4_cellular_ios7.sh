@@ -6,8 +6,8 @@ mkdir /mnt2
 # Check the file systems and mount them.
 fsck_hfs -fy /dev/disk0s1s1
 fsck_hfs -fy /dev/disk0s1s2 && mount -t hfs /dev/disk0s1s1 /mnt1 && cp -a /mnt1/etc/fstab /var
-mkdir /var/Mav4
-cp -a /mnt1/usr/local/standalone/firmware/Baseband/Mav4/* /var/Mav4
+mkdir /var/Mav5
+cp -a /mnt1/usr/local/standalone/firmware/Baseband/Mav5/* /var/Mav5
 cp -a /mnt1/System/Library/Caches/apticket.der /
 umount /mnt1
 # Edit the partition table to make room for the file system that we'll flash using asr later.
