@@ -20,7 +20,7 @@ sync
 # Erase the file systems using newfs_hfs.
 newfs_hfs -s -v System -J -b 8192 -n a=8192,c=8192,e=8192 /dev/disk0s1s1 && newfs_hfs -s -v Data -J -P -b 8192 -n a=8192,c=8192,e=8192 /dev/disk0s1s2 && fsck_hfs -fy /dev/disk0s1s1 && fsck_hfs -fy /dev/disk0s1s2
 # Flash the file system.
-asr restore -source /var/UDZO.dmg -target /dev/disk0s1s1 -erase -noprompt -puppetstrings && fsck_hfs -fy /dev/disk0s1s1 && mount -t hfs /dev/disk0s1s1 /mnt1 && fsck_hfs -fy /dev/disk0s1s2 && mount -t hfs /dev/disk0s1s2 /mnt2 && mv -v /mnt1/private/var/* /mnt2 && cp -a /var/fstab /mnt1/etc && umount /mnt2 && mount -t hfs /dev/disk0s1s2 /var && fixkeybag && umount -f /var && mount -t hfs /dev/disk0s1s2 /mnt2 && mv /kernelcache /mnt1/System/Library/Caches/com.apple.kernelcaches && df -B1 && echo Cleaning up... && rm -rf /var/UDZO.dmg &&
+asr restore -source /var/UDZO.dmg -target /dev/disk0s1s1 -erase -noprompt -puppetstrings && fsck_hfs -fy /dev/disk0s1s1 && mount -t hfs /dev/disk0s1s1 /mnt1 && fsck_hfs -fy /dev/disk0s1s2 && mount -t hfs /dev/disk0s1s2 /mnt2 && mv -v /mnt1/private/var/* /mnt2 && cp -a /var/fstab /mnt1/etc && umount /mnt2 && mount -t hfs /dev/disk0s1s2 /var && fixkeybag && umount -f /var && mount -t hfs /dev/disk0s1s2 /mnt2 && mv /kernelcache /mnt1/System/Library/Caches/com.apple.kernelcaches && echo Cleaning up... && rm -rf /var/UDZO.dmg &&
 mv /mnt1/System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/Support/softwareupdateservicesd /mnt1/System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/
 cd /mnt2/mobile/Media
 cp -a /iBEC /usr/bin/hfs_resize /usr/bin/kloader .
