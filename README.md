@@ -7,7 +7,10 @@ This is BETA software. This may boot loop or brick your device if you don't know
 ***
 ### Contents
 
-These bash scripts are an attempt to make tether-up/downgrading an A5/A6 device to (almost) any iOS easier. The original tutorial can be found [here] (https://www.reddit.com/r/jailbreak/comments/7v6pxu/release_tutorial_how_to_downgrade_any_32_bit/). These are the contents:
+These bash scripts are an attempt to make tether-up/downgrading an A5/A6 device to (almost) any iOS easier. The original tutorial can be found here:
+https://www.reddit.com/r/jailbreak/comments/7v6pxu/release_tutorial_how_to_downgrade_any_32_bit/
+
+These are the contents:
 
 * restore_iphone4s_ios6.sh - for up/downgrading an iPhone 4S to iOS 5.0-6.1.3**
 
