@@ -12,7 +12,7 @@ https://www.reddit.com/r/jailbreak/comments/7v6pxu/release_tutorial_how_to_downg
 
 These are the contents:
 
-* restore_iphone4s_ios6.sh - for up/downgrading an iPhone 4S to iOS 5.0-5.1.1
+* restore_iphone4s_ios5.sh - for up/downgrading an iPhone 4S to iOS 5.0-5.1.1
 
 * restore_iphone4s_ios6.sh - for up/downgrading an iPhone 4S to iOS 6.0-6.1.3**
 
