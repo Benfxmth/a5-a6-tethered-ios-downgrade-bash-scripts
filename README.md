@@ -36,13 +36,13 @@ These are the contents:
 
 * restore_ipad2_ios9.sh - for up/downgrading an iPad 2 (Wi-Fi or Cellular) to iOS 9.0-9.3.5***
 
-* restore_ipad3_ios5.sh - for up/downgrading an iPad 3 to iOS 5.1-5.1.1
-
-* restore_ipad3_ios6.sh - for up/downgrading an iPad 3/4/mini 1 (Wi-Fi) to iOS 6.0-6.1.3. Can be used on the iPod touch 5.
+* restore_ipad3_ios6.sh - for up/downgrading an iPad 3/4/mini 1 (Wi-Fi) to iOS 5.1-6.1.3. Can be used on the iPod touch 5.
 
 * restore_ipad3_ios7.sh - for up/downgrading an iPad 3/4/mini 1 (Wi-Fi) to iOS 7.0-8.4.1. Can be used on the iPod touch 5.*
 
 * restore_ipad3_ios9.sh - for up/downgrading an iPad 3/4/mini 1 (Wi-Fi) to iOS 9.0-9.3.5. Can be used on the iPod touch 5.***
+
+* restore_ipad3_cellular_ios5.sh - for up/downgrading an iPad 3 (Cellular) to iOS 5.1-5.1.1
 
 * restore_ipad3_cellular_ios6.sh - for up/downgrading an iPad 3 (Cellular) to iOS 5.1-6.1.3
 
